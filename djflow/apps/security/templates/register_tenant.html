@@ -47,7 +47,7 @@
         {% trans 'Tu cuenta ha sido creada correctamente' %}<br>
         {% trans 'Haz clic en el siguiente botón para comenzar a disfrutar de los beneficios de djflow' %}
     </p>
-    <a href="http://{{ url_login_new_schema }}" class="btn btn-success">{% trans 'Ingresar' %}</a>
+    <a href="{{ protocolo }}://{{ url_login_new_schema }}" class="btn btn-success">{% trans 'Ingresar' %}</a>
 {% endif %}
     </div>
 {% endblock content %}

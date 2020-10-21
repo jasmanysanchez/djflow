@@ -28,7 +28,7 @@
       ".turistico.live"
     ]
   },
-  "DEBUG": true,
+  "DEBUG": false,
   "USE_SSL": true,
   "URL_SERVER": "https://turistico.live",
   "DEFAULT_URL_USERPROFILE": "/static/img/user-default.jpg",

@@ -208,6 +208,10 @@ class TenantRegisterView(View):
         if schema_exists(tenant_name):
             kwargs['tenant_exist'] = True
         else:
+            if settings["USE_SSL"]:
+                kwargs["protocolo"] = "https"
+            else:
+                kwargs["protocolo"] = "http"
             client = Client()
             client.domain_url = '{0}.{1}'.format(tenant_name, request.tenant.domain_url)
             client.name = tenant_name
