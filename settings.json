@@ -1,0 +1,50 @@
+{
+  "TIME_ZONE": "America/Guayaquil",
+  "LANGUAGE_CODE": "es-EC",
+  "SECRET_KEY": "jcxw@ac_rkrm=r9pld6h7imz375wihv=7f+tm&u3^r02gk0dm!",
+  "DB": {
+    "default": {
+      "ENGINE": "tenant_schemas.postgresql_backend",
+      "HOST": "localhost",
+      "NAME": "djflow",
+      "USER": "postgres",
+      "PASSWORD": "1234",
+      "PORT": 5432
+    }
+  },
+  "AUTH_PASSWORD_VALIDATORS": [
+    {
+        "NAME": "django.contrib.auth.password_validation.UserAttributeSimilarityValidator"
+    },
+    {
+        "NAME": "django.contrib.auth.password_validation.CommonPasswordValidator"
+    },
+    {
+        "NAME": "django.contrib.auth.password_validation.NumericPasswordValidator"
+    }
+  ],
+  "SECURITY": {
+    "ALLOWED_HOSTS": [
+      ".localhost"
+    ]
+  },
+  "LOGGING": {
+    "DEBUG_PATH": "LOGGIN_ROOT+'/debug.log'",
+    "ERROR_PATH": "LOGGIN_ROOT+'/error.log'",
+    "DJFLOW_PATH": "LOGGIN_ROOT+'/djflow.log'"
+  },
+  "DEBUG": true,
+  "USE_SSL": false,
+  "URL_SERVER": "http://localhost:8000",
+  "DEFAULT_URL_USERPROFILE": "/static/img/user-default.jpg",
+  "EMAIL": {
+    "EMAIL_USE_TLS": true,
+    "EMAIL_HOST": "smtp.gmail.com",
+    "EMAIL_PORT": 587,
+    "EMAIL_BACKEND": "django.core.mail.backends.smtp.EmailBackend",
+    "EMAIL_HOST_USER": "msanchezm345@gmail.com",
+    "EMAIL_HOST_PASSWORD": "jasmany18",
+    "DEFAULT_FROM_EMAIL": "msanchezm345@gmail.com",
+    "CONTACT_EMAIL": "msanchezm345@gmail.com"
+  }
+}

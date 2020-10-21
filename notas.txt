@@ -1,0 +1,10 @@
+from tenant_schemas.utils import schema_exists
+request.tenant.domain_url
+
+from tenant_schemas.utils import tenant_context
+request.META['HTTP_HOST']
+
+request.tenant.schema_name
+
+html
+autofocus

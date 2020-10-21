@@ -1,0 +1,9 @@
+{% extends 'base_website.html' %}
+{% load i18n static solo_tags %}
+{% get_solo 'website.SiteConfiguration' as site_config %}
+{% block content %}
+    <div class="inner cover">
+        <h1 class="cover-heading">DjFlow</h1>
+        <p class="lead">{% trans 'Maneje de forma efectiva el flujo de de ingresos y egresos que tiene su negocio' %}</p>
+    </div>
+{% endblock content %}
