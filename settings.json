@@ -33,9 +33,9 @@
     "ERROR_PATH": "LOGGIN_ROOT+'/error.log'",
     "DJFLOW_PATH": "LOGGIN_ROOT+'/djflow.log'"
   },
-  "DEBUG": true,
+  "DEBUG": false,
   "USE_SSL": false,
-  "URL_SERVER": "http://localhost:8000",
+  "URL_SERVER": "http://localhost:8014",
   "DEFAULT_URL_USERPROFILE": "/static/img/user-default.jpg",
   "EMAIL": {
     "EMAIL_USE_TLS": true,
