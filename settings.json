@@ -28,7 +28,7 @@
       ".paraprueba.gq"
     ]
   },
-  "DEBUG": false,
+  "DEBUG": true,
   "USE_SSL": true,
   "URL_SERVER": "https://paraprueba.gq",
   "DEFAULT_URL_USERPROFILE": "/static/img/user-default.jpg",
