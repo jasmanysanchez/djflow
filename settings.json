@@ -25,12 +25,12 @@
   ],
   "SECURITY": {
     "ALLOWED_HOSTS": [
-      ".paraprueba.gq"
+      ".turistico.live"
     ]
   },
   "DEBUG": true,
   "USE_SSL": true,
-  "URL_SERVER": "https://paraprueba.gq",
+  "URL_SERVER": "https://turistico.live",
   "DEFAULT_URL_USERPROFILE": "/static/img/user-default.jpg",
   "EMAIL": {
     "EMAIL_USE_TLS": true,
