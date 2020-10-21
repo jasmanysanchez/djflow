@@ -8,7 +8,7 @@
       "HOST": "localhost",
       "NAME": "djflow",
       "USER": "postgres",
-      "PASSWORD": "1234",
+      "PASSWORD": "8740Impowerfull",
       "PORT": 5432
     }
   },
@@ -27,11 +27,6 @@
     "ALLOWED_HOSTS": [
       ".turistico.live"
     ]
-  },
-  "LOGGING": {
-    "DEBUG_PATH": "LOGGIN_ROOT+'/debug.log'",
-    "ERROR_PATH": "LOGGIN_ROOT+'/error.log'",
-    "DJFLOW_PATH": "LOGGIN_ROOT+'/djflow.log'"
   },
   "DEBUG": false,
   "USE_SSL": true,
