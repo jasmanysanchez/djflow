@@ -8,7 +8,7 @@
       "HOST": "localhost",
       "NAME": "djflow",
       "USER": "postgres",
-      "PASSWORD": "8740Impowerfull",
+      "PASSWORD": "1234",
       "PORT": 5432
     }
   },
@@ -25,7 +25,7 @@
   ],
   "SECURITY": {
     "ALLOWED_HOSTS": [
-      ".turistico.live"
+      ".localhost"
     ]
   },
   "LOGGING": {
@@ -34,8 +34,8 @@
     "DJFLOW_PATH": "LOGGIN_ROOT+'/djflow.log'"
   },
   "DEBUG": false,
-  "USE_SSL": true,
-  "URL_SERVER": "https://turistico.live",
+  "USE_SSL": false,
+  "URL_SERVER": "http://localhost:8014",
   "DEFAULT_URL_USERPROFILE": "/static/img/user-default.jpg",
   "EMAIL": {
     "EMAIL_USE_TLS": true,
