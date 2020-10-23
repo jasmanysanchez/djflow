@@ -2,6 +2,8 @@ from django.conf.urls import url, include
 from django.contrib import admin
 from django.conf.urls.static import static
 from django.conf import settings
+from django.urls import path
+from djflow.apps.chat import views
 from djflow.core.json_settings import get_settings
 from django.views.static import serve
 
@@ -9,6 +11,7 @@ settings_json = get_settings()
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    path('<str:room_name>/', views.room, name='room'),
     url(r'^', include('djflow.apps.website.urls')),
     url(r'^flow/', include('djflow.apps.flow.urls')),
     url(r'^security/', include('djflow.apps.security.urls')),

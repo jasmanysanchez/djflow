@@ -43,6 +43,22 @@ TEMPLATES = [
     },
 ]
 
+# Channels
+ASGI_APPLICATION = 'pry_chat.routing.application'
+USE_WEBSOCKETS = True
+CHANNEL_LAYERS = {
+    'default': {
+        'BACKEND': "channels_redis.core.RedisChannelLayer",
+        'CONFIG': {
+            "hosts": [('localhost', 6379)],
+            "symmetric_encryption_keys": [SECRET_KEY],
+        },
+    },
+    # 'default': {
+    #     "BACKEND": "channels.layers.InMemoryChannelLayer"
+    # }
+}
+
 WSGI_APPLICATION = 'djflow.wsgi.application'
 AUTH_PASSWORD_VALIDATORS = settings['AUTH_PASSWORD_VALIDATORS']
 LOGIN_URL = '/security/login/'

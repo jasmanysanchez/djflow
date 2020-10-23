@@ -17,10 +17,12 @@ LOCAL_APPS = (
     'djflow.apps.flow',
     'djflow.apps.website',
     'djflow.apps.security',
+    'djflow.apps.chat',
 )
 
 THIRD_PARTY_APPS = (
     'solo',
+    'channels',
 )
 
 SHARED_APPS = (
@@ -28,6 +30,7 @@ SHARED_APPS = (
     'djflow.apps.tenant',  # App donde reside nuestro modelo tenant.
     'djflow.apps.security',
     'djflow.apps.website',
+    'djflow.apps.chat',
     'django.contrib.contenttypes',
 ) + DJANGO_APPS
 
