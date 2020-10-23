@@ -11,8 +11,8 @@ settings_json = get_settings()
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    path('<str:room_name>/', views.room, name='room'),
     url(r'^', include('djflow.apps.website.urls')),
+    url(r'^chat/', include('djflow.apps.chat.urls'), name='room'),
     url(r'^flow/', include('djflow.apps.flow.urls')),
     url(r'^security/', include('djflow.apps.security.urls')),
     url(r'^static/(?P<path>.*)$', serve, {'document_root': settings.STATIC_ROOT}),

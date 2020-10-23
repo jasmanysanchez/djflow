@@ -44,7 +44,7 @@ TEMPLATES = [
 ]
 
 # Channels
-ASGI_APPLICATION = 'pry_chat.routing.application'
+ASGI_APPLICATION = 'djflow.routing.application'
 USE_WEBSOCKETS = True
 CHANNEL_LAYERS = {
     'default': {
