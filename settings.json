@@ -25,21 +25,21 @@
   ],
   "SECURITY": {
     "ALLOWED_HOSTS": [
-      ".turistico.live"
+      ".localhost"
     ]
   },
   "DEBUG": false,
   "USE_SSL": true,
-  "URL_SERVER": "https://turistico.live",
+  "URL_SERVER": "http://localhost:8000",
   "DEFAULT_URL_USERPROFILE": "/static/img/user-default.jpg",
   "EMAIL": {
     "EMAIL_USE_TLS": true,
     "EMAIL_HOST": "smtp.gmail.com",
     "EMAIL_PORT": 587,
     "EMAIL_BACKEND": "django.core.mail.backends.smtp.EmailBackend",
-    "EMAIL_HOST_USER": "msanchezm345@gmail.com",
-    "EMAIL_HOST_PASSWORD": "jasmany18",
-    "DEFAULT_FROM_EMAIL": "msanchezm345@gmail.com",
-    "CONTACT_EMAIL": "msanchezm345@gmail.com"
+    "EMAIL_HOST_USER": "",
+    "EMAIL_HOST_PASSWORD": "",
+    "DEFAULT_FROM_EMAIL": "@gmail.com",
+    "CONTACT_EMAIL": "@gmail.com"
   }
 }
