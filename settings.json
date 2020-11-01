@@ -29,7 +29,7 @@
     ]
   },
   "DEBUG": false,
-  "USE_SSL": true,
+  "USE_SSL": false,
   "URL_SERVER": "http://localhost:8000",
   "DEFAULT_URL_USERPROFILE": "/static/img/user-default.jpg",
   "EMAIL": {
