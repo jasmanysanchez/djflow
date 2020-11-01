@@ -8,7 +8,7 @@
       "HOST": "localhost",
       "NAME": "djflow",
       "USER": "postgres",
-      "PASSWORD": "8740Impowerfull",
+      "PASSWORD": "1234",
       "PORT": 5432
     }
   },
